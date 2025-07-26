@@ -1,0 +1,109 @@
+body {
+    background-color: #ffe6f0; /* Baby pink */
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url('https://media.istockphoto.com/id/1191251531/vector/seamless-pattern-with-red-hearts-romantic-creamy-peach-background-for-textile-wallpaper.jpg?s=612x612&w=0&k=20&c=RqOsWkdXpYGaLs6uJ8-7Z0MjfXlIY73--E_oTjW1ZcE='); /* Tiny red hearts */
+    background-repeat: repeat;
+    background-size: 300px 300px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: rgb(255, 194, 194);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(255, 105, 180, 0.2);
+    border-radius: 0 0 20px 20px;
+  }
+  
+  header h1 {
+    color: #f50f0f;
+    font-family: 'Pacifico', cursive;
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  input[type="text"],
+  select {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ffa6c1;
+    background-color: #fff0f5;
+    font-size: 14px;
+    width: 200px;
+  }
+  
+  .posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(255, 105, 180, 0.2);
+    padding: 15px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    color: #cc3366;
+    margin-bottom: 5px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .card small {
+    color: #999;
+  }
+  
+  .pagination {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .pagination button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff4d88;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .pagination button:hover:enabled {
+    background-color: #e6005c;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ffc2d1;
+    cursor: not-allowed;
+  }
+  
+  
